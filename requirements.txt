@@ -1,0 +1,11 @@
+opencv-python==4.5.3.56
+torch==1.9.0
+torchvision==0.10.0
+numpy==1.21.1
+pillow==8.3.1
+smtplib==3.6.8
+email==6.0.0
+pytesseract==0.3.8
+RPi.GPIO==0.7.1
+yolov5==6.2.0
+matplotlib==3.7.1
