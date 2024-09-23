@@ -237,9 +237,9 @@ while cap.isOpened():
                                     process_image_and_ocr(num_img, time_stamp, conf_num)
                                     
                                     # Collect file paths for attachments
-                                    rider_image_path = f'riders_pictures/{time_stamp}.jpg'
-                                    number_plate_image_path = f'number_plates/{time_stamp}_{conf_num}.jpg'
-                                    number_text_path = f'numbers/{time_stamp}.txt'
+                                    rider_image_path = f'riders/{time_stamp}.jpg'
+                                    number_plate_image_path = f'plates/{time_stamp}_{conf_num}.jpg'
+                                    number_text_path = f'vehicle_numbers/{time_stamp}.txt'
                                     attachment_paths = [rider_image_path, number_plate_image_path, number_text_path]
 
                                     # Specify email details
