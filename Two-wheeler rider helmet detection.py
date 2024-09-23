@@ -239,7 +239,7 @@ while cap.isOpened():
                                     # Collect file paths for attachments
                                     rider_image_path = f'riders/{time_stamp}.jpg'
                                     number_plate_image_path = f'plates/{time_stamp}_{conf_num}.jpg'
-                                    number_text_path = f'vehicle_numbers/{time_stamp}.txt'
+                                    number_text_path = f'license_numbers/{time_stamp}.txt'
                                     attachment_paths = [rider_image_path, number_plate_image_path, number_text_path]
 
                                     # Specify email details
