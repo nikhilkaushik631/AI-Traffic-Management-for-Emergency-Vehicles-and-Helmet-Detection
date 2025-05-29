@@ -1,4 +1,4 @@
-# Automated Traffic Management System for Emergency Vehicles and Two-Wheeler Rider Helmet Detection
+# AI Traffic Management for Emergency Vehicles and Helmet Detection
 
 ## Overview
 This project integrates an automated traffic management system for emergency vehicles and a helmet detection system for two-wheeler riders, enhancing road safety and traffic efficiency. The system uses YOLOv5 for real-time vehicle detection, including emergency vehicles and helmet compliance. License plate recognition is also incorporated using Optical Character Recognition (OCR), and notifications are sent via email for traffic violations.
